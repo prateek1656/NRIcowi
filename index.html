@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Get Help</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d7bba075ab.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./PheonixV2.css" />
 </head>
 <body style="background-color: #eddbd5">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" style="background: #c7c7c7;">
           <div class="navbar-brand" >
             <a href="#"> <img src="./logo.jpeg" alt="" style="height: 5em; width: 10em;"></a>
           </div>
@@ -22,19 +22,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/feed.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Emergency Contacts</a>
+                <a class="nav-link" href="/contact.html">Emergency Contacts</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Authority contacts</a>
+                <a class="nav-link" href="/contact.html">Authority contacts</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">contact US</a>
+                <a class="nav-link" href="/contact.html">contact US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About US</a>
+                <a class="nav-link" href="/contact.html">About US</a>
               </li>
             </ul>
           </div>
@@ -43,13 +43,36 @@
       <h3 class="main_logo display-5 ps-3 d-inline">NRI SUPPORT INDIA COVID RELIEF</h3>
       <p class="  d-inline"> To help ,support & serve</p>
 
+      <div class="container-lg ">
+        <div class="card mt-5 rounded-3">
+            <div class="card-body" style="text-align: center;">
+                <!-- <h1 class="display-4">Go to</h1> -->
+                <a href="./feed.html"> <button type="button" class="btn btn-primary">Campaings<img src="./marketing.svg" alt="oxygen" style="height: 2em; width: 2em;"></button></a>
+                <a href="./index.html"><button type="button" class="btn btn-primary">Get Help<img src="./help.svg" alt="oxygen" style="height: 2em; width: 2em;"></button></a>
+                <a href="#voluenteer">
+                <button type="button" class="btn btn-primary">Volunteer <img src="./charity.svg" alt="oxygen" style="height: 2em; width: 2em;"></button></a>
+                
+            </div>
+          </div>
+        <div class="card mt-3 mb-5 rounded-3">
+            <div class="card-body">
+                <h1 class="display-4">Quick Links</h1>
+                <a href="#donate_blood"><button type="button" class="btn btn-info">Donate blood <img src="./blood-donation.png" alt="oxygen" style="height: 2em; width: 2em;"></button></a>
+                
+                <button type="button" class="btn btn-info">Option A</button>
+                <button type="button" class="btn btn-info">Option B</button>
+            </div>
+          </div>
+    </div>
+<!-- 
+      <div class="container-lg mt-5">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner rounded-3">
           <div class="carousel-item active" style="height: 30em;">
             <img src="./campaingHIN1.jpeg" class="d-block w-100" alt="campaing1" style=" background-position:bottom; background-size: cover; background-repeat: no-repeat;">
             <div class="carousel-caption d-none d-md-block">
@@ -81,10 +104,11 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div> -->
 
-      <div class="container-lg mb-5">
+      <div class="container-lg">
         <button type="button" class="shadow-lg btn btn-danger container-sm mt-5 rounded-pill"  data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #ff5200">
-    EMERGENCY
+    EMERGENCY<img src="./warning.svg" alt="oxygen" style="height: 2em; width: 2em;">
   </button>
   
  
@@ -420,7 +444,7 @@
           </div>
         </div>
       </div>
-      <h1 class=" mt-5 pb-2">Get help from NGOs </h1>
+      <h1 class=" mt-5 pb-2">Supporting NGOs </h1>
       <div class="accordion accordion-flush " id="accordionFlushExample">
         <div class="accordion-item  rounded mb-1">
           <h2 class="accordion-header" id="flush-headingOne">
@@ -522,11 +546,11 @@
           </div>
         </div>
       </div>
-      <h1 class=" mt-5 pb-2">Help us win the Covid fight</h1>
+      <h1 class=" mt-5 pb-2" >Help us win the Covid fight</h1>
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item  rounded mb-1">
           <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="shadow-sm accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#help_opt_1" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <button class="shadow-sm accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#help_opt_1" aria-expanded="false" aria-controls="flush-collapseTwo" id="voluenteer">
               voluenteer
               &nbsp;
               <img src="./charity.svg" alt="oxygen" style="height: 2em; width: 2em;">
@@ -538,14 +562,36 @@
         </div>
         <div class="accordion-item  rounded mb-1">
           <h2 class="accordion-header" id="flush-headingThree">
-            <button class="shadow-sm accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#help_opt_2" aria-expanded="false" aria-controls="flush-collapseThree">
+            <button class="shadow-sm accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#help_opt_2" aria-expanded="false" aria-controls="flush-collapseThree" id="donate_blood">
               Donate
               &nbsp;
               <img src="./heart.svg" alt="oxygen" style="height: 2em; width: 2em;">
             </button>
           </h2>
           <div id="help_opt_2" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">content_coming_soon</div>
+            <div class="accordion-body"><ol class="list-group ">
+              <li class="list-group-item d-flex justify-content-between align-items-start" >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Plasma</div>
+                  recovered from Covid within 2 months
+                </div>
+        
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Covid Medicines</div>
+        
+                </div>
+               
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Medical equipments</div>
+      
+                </div>
+               
+              </li>
+            </ol></div>
           </div>
         </div>
       </div>
